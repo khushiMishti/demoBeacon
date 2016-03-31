@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *labelBeacon;
+@property (strong, nonatomic) IBOutlet UIImageView *imageviewBeacon;
+
 
 @end
 
